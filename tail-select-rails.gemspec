@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'tail-select-rails'
-  s.version     = '1.0.2'
+  s.version     = '1.0.3'
   s.date        = '2024-06-03'
   s.summary     = 'Rails gem for easy tail.select js integration.'
   s.description = 'Rails gem for easy tail.select js (v1.0.2) integration. See https://getbutterfly.com/tail-select/ for more information on how to use tail.select'

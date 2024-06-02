@@ -10,7 +10,7 @@
 
 	--tail-select--selection: rgba(0, 0, 0, 0.05);
 	--tail-select--selection-text: #ffffff;
-	--tail-select--selection-muted: rgb(147 197 253 / 1);
+	--tail-select--selection-muted: rgba(147, 197, 253, 1);
 }
 
 [data-theme="tail-theme--light"] {
@@ -225,8 +225,7 @@
 }
 
 .tail-select input[type="checkbox"]:focus {
-	outline: 3px solid rgb(0 87 255 / 50%);
-	outline: 3px solid rgb(147 197 253 / 1);
+	outline: 3px solid rgba(0, 87, 255, .5);
 	outline-offset: 0px;
 }
 
