@@ -3,7 +3,7 @@ tail-select-rails
 
 A gem to easily integrate [tail-select](https://getbutterfly.com/tail-select/) with the rails 6.1+ asset pipeline.
 
-Currently this gem brings support for tail-select **v1.0.2**.
+Currently this gem brings support for tail-select **v0.5.16**.
 
 ## Installation
 
@@ -18,6 +18,7 @@ Run `bundle install`.
 Add the following lines to `app/assets/javascripts/application.js`:
 
 ``` javascript
+//= require jquery3
 //= require tail.select
 ```
 
