@@ -18,15 +18,14 @@ Run `bundle install`.
 Add the following lines to `app/assets/javascripts/application.js`:
 
 ``` javascript
-//= require jquery
-//= require tail-select-rails
+//= require tail.select
 ```
 
 Finalize the setup by adding these lines to `app/assets/stylesheets/application.css`:
 
 ``` css
 /*
- *= require tail-select-rails
+ *= require tail.select
  */
 ```
 
